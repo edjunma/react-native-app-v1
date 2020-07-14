@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Python\Scripts;C:\Program Files\Python\Python37-32\Scripts;C:\Users\Edmond\MyPythonScripts;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PostgreSQL\10\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Windows\System32;C:\Users\Edmond\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Edmond\AppData\Local\learn_ide_3\bin;C:\Users\Edmond\AppData\Local\Microsoft\WindowsApps;C:\Users\Edmond\AppData\Local\Yarn\bin;C:\Exercism;C:\adb;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz: Request failed "500 Internal Server Error"
+      at ResponseError.ExtendableBuiltin (C:\Program Files (x86)\Yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Program Files (x86)\Yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:66009:16)
+      at Request.emit (events.js:189:13)
+      at Request.module.exports.Request.onRequestResponse (C:\Program Files (x86)\Yarn\lib\cli.js:141341:10)
+      at ClientRequest.emit (events.js:194:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+      at TLSSocket.socketOnData (_http_client.js:442:20)
+      at TLSSocket.emit (events.js:189:13)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
